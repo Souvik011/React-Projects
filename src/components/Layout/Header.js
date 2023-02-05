@@ -4,6 +4,7 @@ import classes from './Header.module.css';
 import mealImg from '../../IMG/Meals.jpg';
 import HeaderCart from './HeaderCart';
 
+
 const Header = (props) => {
     return (
         <React.Fragment>
@@ -14,6 +15,7 @@ const Header = (props) => {
             <div className={classes['main-image']}>
                 <img src={mealImg} alt='Delicious Foods!'/>
             </div>
+            
         </React.Fragment>
     );
 };
